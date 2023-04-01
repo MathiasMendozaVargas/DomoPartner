@@ -836,6 +836,9 @@ hr.socket{
         font-size: 15.5px;
         margin-bottom: 30px;
     }
+    .projects{
+        margin-left: 30px;
+    }
 }
 
 @media  screen and (max-width: 750px) {
@@ -989,11 +992,11 @@ hr.socket{
         margin-top: 50px;
     }
     .projects h1{
-        font-size: 31px;
+        font-size: 25px;
         font-weight: bold;
     }
     .projects p{
-        font-size: 16px;
+        font-size: 14px;
     }
     .projects-images{
         padding: 2rem 0rem 0rem 0rem;
