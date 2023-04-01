@@ -460,10 +460,8 @@ button.navbar-toggler.ml-auto.custom-toggler{
 }
 .projects h1{
     color: #0f3d99;
-    text-shadow: 3px 3px 3px #00000025;
     font-size: 50px;
     font-weight: bold;
-    font-style: italic;
 }
 .projects p{
     font-size: 17px;
@@ -992,7 +990,7 @@ hr.socket{
         margin-top: 50px;
     }
     .projects h1{
-        font-size: 25px;
+        font-size: 26px;
         font-weight: bold;
     }
     .projects p{
