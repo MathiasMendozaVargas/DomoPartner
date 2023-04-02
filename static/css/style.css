@@ -278,6 +278,10 @@ button.navbar-toggler.ml-auto.custom-toggler{
     margin-top: 85px;
 }
 
+.jumbotron{
+    border-radius: 0px !important;
+}
+
 .container{
     padding: 0 !important;
     display: flex;
@@ -356,7 +360,7 @@ button.navbar-toggler.ml-auto.custom-toggler{
 }
 .services-content h1{
     color: rgb(239, 239, 239);
-    text-shadow: 3px 3px 3px #2e2e2e;
+    text-shadow: 3px 3px 3px #2e2e2e81;
     font-size: 50px;
     margin-bottom: 30px;
     font-weight: 600;
@@ -382,7 +386,6 @@ button.navbar-toggler.ml-auto.custom-toggler{
 }
 .numbers .num-text{
     color: white;
-    text-shadow: 3px 3px 3px #c9c9c96f;
     font-size: 40px;
     font-weight: 600;
     padding-left: 5rem;
@@ -461,13 +464,15 @@ button.navbar-toggler.ml-auto.custom-toggler{
 .projects h1{
     color: #0f3d99;
     font-size: 50px;
+    width: fit-content;
     font-weight: bold;
 }
 .projects p{
     font-size: 17px;
     font-weight: bold;
+    color: black;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     /* margin: 20px auto 0px auto; */
 }
 
@@ -506,7 +511,7 @@ button.navbar-toggler.ml-auto.custom-toggler{
 .projects-buttons{
     display: inline-flex;
     width: fit-content;
-    margin: 30px auto 50px auto;
+    margin: 20px auto 50px auto;
 }
 
 .projects-buttons .emailBtn{
@@ -514,7 +519,6 @@ button.navbar-toggler.ml-auto.custom-toggler{
     background-color: #023a8f;
     color: white;
     border-radius: 12px;
-    font-style: italic;
     font-weight: 600;
     font-size: 16px;
 }
@@ -530,7 +534,6 @@ button.navbar-toggler.ml-auto.custom-toggler{
     background-color: #1da44f;
     color: white;
     border-radius: 12px;
-    font-style: italic;
     font-weight: 600;
     font-size: 16px;
     margin-right: 30px;
@@ -602,7 +605,6 @@ button.navbar-toggler.ml-auto.custom-toggler{
 }
 .noticias h1{
     color: white;
-    text-shadow: 3px 3px 3px #c9c9c96f;
     margin-bottom: 20px;
     font-weight: 600;
     font-size: 45px;
@@ -640,7 +642,6 @@ button.navbar-toggler.ml-auto.custom-toggler{
     color: rgb(231, 231, 231);
     background-color: #042c7b;
     font-weight: 600;
-    text-shadow: 3px 3px 3px #8484846f;
     padding: 14px 0px 12px 0px;
     border-radius: 0px 0px 15px 0px;
     box-shadow: 5px 5px 5px 1px rgb(55, 55, 55);
@@ -881,7 +882,7 @@ hr.socket{
     }
     .services-content{
         padding: 0.5rem;
-        margin-top: 30px;
+        margin-top: 0px;
     }
     .services-content h1{
         text-align: center;
@@ -960,7 +961,7 @@ hr.socket{
     }
     .services-content{
         padding: 0.5rem;
-        margin-top: 30px;
+        margin-top: 0px;
     }
     .services-content h1{
         text-align: center;
@@ -990,11 +991,11 @@ hr.socket{
         margin-top: 50px;
     }
     .projects h1{
-        font-size: 26px;
-        font-weight: bold;
+        font-size: 27px;
+        font-weight: 900;
     }
     .projects p{
-        font-size: 14px;
+        font-size: 13px;
     }
     .projects-images{
         padding: 2rem 0rem 0rem 0rem;
