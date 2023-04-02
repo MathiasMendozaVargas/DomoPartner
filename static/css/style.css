@@ -665,7 +665,6 @@ button.navbar-toggler.ml-auto.custom-toggler{
 }
 
 .carousel {
-    overflow: hidden;
     position: absolute;
     left: -1%;
     width: 100%;
@@ -676,7 +675,6 @@ button.navbar-toggler.ml-auto.custom-toggler{
 .carousel__face { 
     position: absolute;
     width: 300px;
-    overflow: hidden;
     height: 187px;
     top: 20px;
     left: 5px;
