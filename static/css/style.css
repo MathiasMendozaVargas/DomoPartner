@@ -24,8 +24,7 @@ body a {
 .offset:before{
     display: block;
     content: "";
-    height: 5rem;
-    margin-top: -5rem !important;
+    margin-top: -6.35rem !important;
 }
 
 .jumbotron{
@@ -66,7 +65,7 @@ header {
     font-style: normal;
 }
 .navbar-brand span{
-    text-shadow: .55rem .55rem .8rem black !important;
+    text-shadow: .55rem .55rem .8rem rgba(0, 0, 0, 0.578) !important;
 }
 .navbar-brand img{
     height: 3.1rem !important;
@@ -275,7 +274,10 @@ button.navbar-toggler.ml-auto.custom-toggler{
 }
 
 .services{
+    padding-top: 220px;
+    padding-bottom: 230px;
     margin-top: 85px;
+    background-color: black;
 }
 
 .jumbotron{
@@ -295,6 +297,7 @@ button.navbar-toggler.ml-auto.custom-toggler{
     flex: 50%;
 }
 .grid-wrapper{
+    position: relative;
     padding: 0px 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
@@ -313,27 +316,27 @@ button.navbar-toggler.ml-auto.custom-toggler{
     
 }
 .firstService{
-    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.693);
+    box-shadow: 5px 5px 5px 1px rgb(78, 78, 78);
 }
 .secondService{
     border-radius: 0px 0px 0px 0px;
-    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.693);
+    box-shadow: 5px 5px 5px 1px rgb(78, 78, 78);
 }
 
 .thirdService{
     border-radius: 0px 15px 0px 0px;
-    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.693);
+    box-shadow: 5px 5px 5px 1px rgb(78, 78, 78);
 }
 
 .fourthService{
     border-radius: 0px 0px 0px 15px;
     height: 100%;
-    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.693);
+    box-shadow: 5px 5px 5px 1px rgb(78, 78, 78);
 }
 
 .fifthService{
     border-radius: 0px 0px 15px 0px;
-    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.693);
+    box-shadow: 5px 5px 5px 1px rgb(78, 78, 78);
 }
 
 
@@ -362,10 +365,12 @@ button.navbar-toggler.ml-auto.custom-toggler{
     color: rgb(239, 239, 239);
     text-shadow: 3px 3px 3px #2e2e2e81;
     font-size: 50px;
+    position: relative;
     margin-bottom: 30px;
     font-weight: 600;
 }
 .services-content p{
+    position: relative;
     padding-right: 5rem;
     margin-bottom: 30px;
     color: rgb(223, 223, 223);
@@ -375,8 +380,8 @@ button.navbar-toggler.ml-auto.custom-toggler{
     position: absolute;
     top: -50px;
     left: -20px;
+    z-index: 0;
     width: 650px;
-    z-index: -2;
     animation: scaleup 3s ease-in-out infinite;
 }
 
@@ -458,7 +463,6 @@ button.navbar-toggler.ml-auto.custom-toggler{
 
 /* Projects */
 .projects{
-    margin-top: 60px;
     text-align: center;
 }
 .projects h1{
@@ -466,6 +470,7 @@ button.navbar-toggler.ml-auto.custom-toggler{
     font-size: 50px;
     width: fit-content;
     font-weight: bold;
+    margin-top: 150px;
 }
 .projects p{
     font-size: 17px;
@@ -511,7 +516,7 @@ button.navbar-toggler.ml-auto.custom-toggler{
 .projects-buttons{
     display: inline-flex;
     width: fit-content;
-    margin: 20px auto 50px auto;
+    margin: 20px auto 150px auto;
 }
 
 .projects-buttons .emailBtn{
@@ -661,7 +666,7 @@ button.navbar-toggler.ml-auto.custom-toggler{
     width: 320px;
     margin: 70px auto 0 auto;
     perspective: 1800px;
-    margin-bottom: 450px;
+    margin-bottom: 480px;
 }
 
 .carousel {
