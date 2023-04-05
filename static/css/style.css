@@ -366,12 +366,13 @@ button.navbar-toggler.ml-auto.custom-toggler{
     text-shadow: 3px 3px 3px #2e2e2e81;
     font-size: 50px;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-weight: 600;
 }
 .services-content p{
     position: relative;
     padding-right: 5rem;
+    font-size: 14.4px;
     margin-bottom: 30px;
     color: rgb(223, 223, 223);
     text-align: justify;
@@ -753,8 +754,43 @@ span {
 }
 
 
+/* Location Section */
+.location{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 165px;
+    align-items: center;
+    margin: auto auto;
+}
+.location .container{
+    display: inline-block;
+}
+.location-content{
+    text-align: center;
+}
+.location-content h1{
+    color: #0f3d99;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 55px;
+}
+.location-map{
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
 
-  
+.locationBtn{
+    padding: 10px 13px;
+    background-color: #0049b6;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.locationBtn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #003d9a;
+}
 
 
 /* CONTACT SECTION */
@@ -762,7 +798,7 @@ footer{
     /* background-color:rgb(5, 25, 63); */
     background-color: #042c7b;
     color: white;
-    padding: 1rem 0 2rem;
+    padding: 1rem 0 0.5rem;
     margin-top: 0rem;
 }
 #brand-footer{
@@ -770,9 +806,25 @@ footer{
     color: white;
     text-shadow: .35rem .35rem .8rem black !important;
 }
-#brand-footer:hover{
+.footer-copyright{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.footer-copyright p{
+    color: white;
+}
+.footer-copyright p:hover{
+    cursor: default;
+}
+.footer-copyright a:hover{
+    color: rgb(213, 213, 213);
     text-decoration: none;
 }
+.footer-copyright i{
+    margin-right: 6px;
+}
+
 footer p{
     margin-bottom: 0.5rem !important;
 }
@@ -801,6 +853,9 @@ hr.socket{
 }
 
 @media screen and (max-width: 978px) {
+    .head-title{
+        margin-right: 40px;
+    }
     .navbar-toggler{
         margin-left: 0px !important;
     }
@@ -1021,12 +1076,12 @@ hr.socket{
 /* Animations */
 @keyframes scaleup{
     0% {
-        transform: scale(1.3);
+        transform: scale(1.34);
     }
     50% {
         transform: scale(1);
     }
     100% {
-        transform: scale(1.3);
+        transform: scale(1.34);
     }
 }
